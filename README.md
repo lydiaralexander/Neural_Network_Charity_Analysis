@@ -21,9 +21,12 @@ The purpose of this analysis was to create a binary classifier that is able to p
 ### Compling, Traning, and Evaluating the Model
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Neurons: neurons were set to the number of input features.  In this case there were 9.
+        ![](images/initial_attempt.png)
+
+        The neurons were selected based on the number of input features in the dataset (9 in this case).  The layers were chosen as a best guess to start the process of trial and error and get a baseline to continue working through to optimize the model accuracy.
 
 * Were you able to achieve the target model performance?  No
+        ![](images/initial_attempt_accuracy.png)
 
 * What steps did you take to try and increase model performance?
 1. Removed the "AMT" variable:
