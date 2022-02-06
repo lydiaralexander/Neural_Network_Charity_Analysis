@@ -1,10 +1,7 @@
-![](images/Undersampling.png) - for screenshots, remove before submitting
-
-
 # Neural_Network_Charity_Analysis
 
 ## Overview of the Analysis
-#Explain the purpose of the analysis
+The purpose of this analysis was to create a binary classifier that is able to predict whether applicants will be successful if funded by Alphabet Soup.
 
 ## Results
 
@@ -40,5 +37,7 @@
 
 
 ## Summary
-#Summarize the overall results of the deep learning model. 
-#Include recommendations for how a different model could solve this classifification problem, and explain your recommendation.
+
+Ultimately, this deep learning model failed to reach our target of 75%.  The initial trial resulted in an accuracy of 65.95%. Through additional trial and error (specifically, decreasing the nodes), the accuracy increased to 69.64%.
+
+I would reccommend to continue with trial and error by further looking into the variables that could potentially be removed from the data set.  Also, with our third attempt of decreasing the nodes, we saw an increase in accuracy.  So, I would recommend continuing to manipulate the nodes and/or increase the hidden layers to see if we get closer to our goal of 75% accuracy.
