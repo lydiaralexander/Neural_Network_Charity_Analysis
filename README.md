@@ -23,7 +23,7 @@ The purpose of this analysis was to create a binary classifier that is able to p
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
         ![](images/initial_attempt.png)
 
-        The neurons were selected based on the number of input features in the dataset (9 in this case).  The layers were chosen as a best guess to start the process of trial and error and get a baseline to continue working through to optimize the model accuracy.
+The neurons were selected based on the number of input features in the dataset (9 in this case).  The layers were chosen as a best guess to start the process of trial and error and get a baseline to continue working through to optimize the model accuracy.
 
 * Were you able to achieve the target model performance?  No
         ![](images/initial_attempt_accuracy.png)
